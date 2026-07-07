@@ -1,20 +1,21 @@
 <!doctype html>
 <html lang="en">
-  <head>
+<head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Bookmarks | Latest News</title>
 
     <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css"
-      rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css"
+        rel="stylesheet"
     />
 
-    <link rel="stylesheet" href="./style.css" />
-  </head>
+    <link rel="stylesheet" href="../style.css" />
+</head>
 
-  <body>
-  <nav class="navbar navbar-expand-lg navbar-dark">
+<body>
+
+<nav class="navbar navbar-expand-lg navbar-dark">
     <div class="container">
 
         <a class="navbar-brand fw-bold fs-2" href="#">
@@ -25,7 +26,7 @@
             <ul class="navbar-nav">
 
                 <li class="nav-item">
-                    <a class="nav-link " href="index.html">
+                    <a class="nav-link" href="index.html">
                         Home
                     </a>
                 </li>
@@ -40,9 +41,19 @@
         </div>
 
     </div>
-</nav> 
+</nav>
 
-    
-    <script src="./bookmark.js"></script>
-  </body>
+<div class="container mt-5">
+
+    <h2 class="text-center mb-4">
+        📌 Bookmarked News
+    </h2>
+
+    <div id="bookmark-container" class="row"></div>
+
+</div>
+
+<script src="../js/bookmark.js"></script>
+
+</body>
 </html>
