@@ -76,7 +76,7 @@ NewsVista/
 │   ├── home.png
 │   ├── search-city-category.png
 │   ├── search-keyword.png
-│   └──bookmark.png
+│   └── bookmark.png
 ├── js/
 │   ├── script.js
 │   └── bookmark.js
