@@ -80,6 +80,10 @@ function displayNews(articles) {
                     ${article.description || "No description available"}
                 </p>
 
+                <p class="card-text mb-3">
+                    Rating: ${article.starRating == null ? "No rating yet" : `${article.starRating} / 5`}
+                </p>
+
                 <div class="d-flex justify-content-between">
 
                     <a
